@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+body{
+    width: 100vw;
+    height: 60vw;
+  
+  }
+  
+  .wrappn{
+    background-color: #252423;
+    width: 100%;
+    height: 100%;
+    display: flex
+    justify-content: center;
+  
+  }
+  
+  .cont{
+    background: lightyellow;
+    width: 100%;
+    height:100;
+  }
+
+  .navbar{
+  overflow: hidden;
+  background-color: #252423;
+  position: absolute;
+  bottom: 0rem;
+  width: 40%;
+  height: 2%;
+  padding-left: 10rem;
+  margin-top: 8rem;
+  margin
+  margin-right: 3rem;
+  font-family: 'Italiana', serif;
+   
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: lightsalmon;
+  text-align: center;
+  padding-right: 25px;
+  position: relative
+  text-decoration: none;
+  font-size: 25px;
+  
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+  .both{
+    background: #252423;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+   flex-wrap: wrap;
+}
+
+.cont1{
+    display: flex;
+    flex-direction: column;  
+}
+
+.one{
+  width: 324px;
+  height: 180px;
+  background: rgb(228, 95, 95);
+  margin: 5px;
+}
+
+.one{
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 10rem;
+  text-align: left;
+  margin-bottom: 4rem;
+  color: whitesmoke;
+}
+
+
+.bs-example {
+  margin: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 10rem;
+  margin-top: 15rem;
+  cursor:url(mj.png),auto;
+}
+
+.btn{
+  
+    border:none;
+    padding: 15px 20px;
+    text-align: left;
+    text text-decoration: none;
+    font-family: 'Italiana', serif;
+    font-size:28px;
+    border-radius: 5px;
+    cursor:pointer;
+    margin-right:25rem;
+    
+    
+}
+
+.modal-content iframe {
+  margin: 0 auto;
+  display: block; 
+}
+
+.modal-title{
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  font-size: 36px;
+  color: #9E2626;
+  text-align: center;
+  
+}
+.par-1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
+  font-weight: 400;
+  justify-content: center;
+  color: #252423;
+}
+
+
+.two{
+    width: 600px;
+    height: 200px;
+    background: white; 
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    
+    margin-left: 10rem;
+    background: #252423;
+    color: whitesmoke;
+  
+}
+
+.tinker{
+  background: lightgoldenrodyellow;
+  cursor:url(mj.png),auto;
+}
+.kilgore{
+  background: lightsalmon;
+  cursor:url(mj.png),auto;
+}
+.moore{
+  background: lightseagreen;
+  cursor:url(mj.png),auto;
+}
+
+cont2{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    position:relative;
+}
+.three{
+  position:absolute;
+  width: 350px;
+  height: 200px;
+  background:;
+  margin-top: 40rem;
+  padding-top: 3rem;
+  margin-left:34rem;
+ 
+}
+
+.three{
+  font-family: 'Italiana', serif;
+  font-weight: 400;
+  font-size: 55px;
+  
+  
+  
+  color: whitesmoke;
+}
+  
+
+.four{
+    width: 100%;
+    height: 450px;
+    background:#252423;
+    margin-top: 3rem;
+    padding-top: 8rem;
+    margin-left:6rem;
+    padding-bottom: 4rem;
+    justify-content: center;
+  }
+  
+  :root{
+    --v-1: 41vw;
+    --img-d: 4.3vw;
+    
+  }
+  
+  section{
+    background: #252423;
+    width:var(--v-1);
+    height: var(--v-1);
+    margin-left: 8rem;
+    text-align: center;
+  }
+  .imgs{
+    position: relative;
+    transform-origin: center center;
+  /*  background: black; */
+    height: 100%;
+    width:100%;
+    border: 1px ;
+    font-family: 'Italiana', serif;
+    color: #f1f1f1;
+    font-size: 13px;
+    
+  }
+  
+  .img__w{
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform-origin: bottom center;
+    border: 1px;
+    padding-bottom:calc(var(--v-1)/2 - var(--img-d));
+  }
+  
+  .img{
+    width: var(--img-d);
+    height:var(--img-d);
+    transition: all .2s ease-in-out;
+  }
+  .img:hover{
+    transform: scale(1.7);
+    
+  }
+  
+  .img-1{
+    height: 13rem;
+    width: 17rem;
+    background-color: ;
+    cursor:url(mj.png),auto;
+    position:;
+    margin-right: 1.7rem;
+    margin-bottom: rem;
+    
+  }
+  .img-2{
+    background:;
+    cursor:url(mj.png),auto;
+    margin-bottom: 4rem;
+    text-align: right;
+    
+  }
+  .img-3{
+    background-color: ;
+    cursor:url(mj.png),auto;
+    margin-bottom: 7rem;
+    margin-right: 7rem;
+    
+  }
+  .img-4{
+    background-color:;
+    cursor:url(mj.png),auto;
+    margin-bottom: 6rem;
+    margin-right: 9rem;
+    text-align: right;
+  }
+  .img-5{
+    width: 12rem;
+    height: 10rem;
+    background:  ;
+    cursor:url(mj.png),auto;
+    margin-bottom: rem;
+    margin-right: 3rem;
+    margin-left: rem;
+    text-align: right;
+  }
+  .img-6{
+    width:13rem;
+    height:10rem;
+    background-color:;
+    cursor:url(mj.png),auto;
+    margin-bottom: 1rem;
+    padding-bottom: 0rem;
+    margin-right: 1rem;
+    text-align: center;
+  }
+  .img-7{
+    width:13rem;
+    height:8rem;
+    background-color: ;
+    cursor:url(mj.png),auto;
+    padding-bottom: 9rem;
+    padding-top: 5rem;
+    margin-bottom: rem;
+    margin-left:1rem;
+    
+  }
+  .img-8{
+    width: 13rem;
+    height:10rem;
+    background: ;
+    cursor:url(mj.png),auto;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 4rem;
+    
+    
+  }
+  .img-9{
+    width:13rem;
+    background-color: ;
+    cursor:url(mj.png),auto;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .img-11{
+    background-color: ;
+    cursor:url(mj.png),auto;
+    margin-bottom: 3rem;
+    padding: rem;
+    margin-right: 3rem
+  }
+  .img-12{
+    background: ;
+    cursor:url(mj.png),auto;
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+    padding-bottom: 11rem;
+  }
+  
+  .img-13{
+    background: ;
+    cursor:url(mj.png),auto;
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+    padding-bottom: 11rem;
+    text-align: right;
+  }
+  /*animation*/
+  .rotating {
+    animation: rotating 100s linear infinite;
+  }
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
